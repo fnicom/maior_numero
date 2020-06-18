@@ -3,7 +3,11 @@ let numero2 = Number (window.prompt('Digite o numero 2'));
 
 if (numero1 > numero2) {
     alert(numero1)
-}else{
+}
+else if (numero1 == numero2){
+alert('Os numeros são iguais')
+}
+else{
     alert(numero2)
 }
 
